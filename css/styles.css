@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+@import "reset.css";
+@import "status-bar.css";
+body {
+  font-family: "Akaya Telivigala", cursive;
+}
+.Welcome-header {
+  margin: 85px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Welcome-header__title {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.Welcome-header__text {
+  width: 50%;
+  opacity: 0.5;
+}
