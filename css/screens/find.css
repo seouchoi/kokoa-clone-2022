@@ -1,7 +1,8 @@
 .find-icons {
   display: flex;
   justify-content: space-between;
-  margin: 0px 20px;
+  margin: var(--find-part-margin);
+  padding-bottom: 30px;
 }
 .find-icons__icon {
   display: flex;
@@ -14,4 +15,66 @@
 .find-icons__icon span {
   font-size: 19px;
   margin-top: 15px;
+}
+.recommended-friends {
+  padding: 25px 0;
+  margin: var(--find-part-margin);
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+.recommended-friends span {
+  display: block;
+  padding: 100px 0;
+  text-align: center;
+  font-size: 18px;
+  color: var(--often-color);
+}
+.recommended-friends__title {
+  font-size: 15px;
+  color: var(--often-color);
+}
+.open-chat {
+  margin: var(--find-part-margin);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0px;
+}
+.open-chat__title {
+  opacity: 0.6;
+}
+.open-chat span {
+  opacity: 0.5;
+}
+.open-post {
+  display: flex;
+}
+.open-post__members {
+  display: flex;
+  margin: 10px 0px;
+}
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.open-post__title {
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.open-post__hashtags {
+  opacity: 0.6;
+  font-size: 17px;
+}
+.open-post__members .divider {
+  height: 15px;
+  background-color: var(--often-color);
+  width: 1px;
+  margin: 0px 5px;
+}
+.open-post__members-status {
+  color: #ffb0b4;
 }
