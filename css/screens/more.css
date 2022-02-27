@@ -1,0 +1,10 @@
+.more-screen .icon-row {
+  margin-top: 35px;
+  flex-wrap: wrap;
+}
+.more-screen .icon-row__icon {
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.7);
+}
