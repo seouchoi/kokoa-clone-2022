@@ -1,0 +1,10 @@
+#chat-screen,
+.chat-exclusive-status-bar {
+  background-color: #abc1d1;
+}
+.message span {
+  background-color: white;
+  display: block;
+  justify-content: center;
+  padding: 100px;
+}
