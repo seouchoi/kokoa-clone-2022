@@ -38,3 +38,7 @@
 .alt-header__colum:last-child i:last-child {
   margin-left: 13px;
 }
+.fixed-screen,
+.status-bar {
+  top: 0;
+}
