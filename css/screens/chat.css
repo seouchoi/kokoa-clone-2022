@@ -105,6 +105,7 @@
   align-items: center;
   padding: 5px 40px 5px 15px;
   box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
 }
 
 .reply .reply__colum:first-child {
@@ -120,6 +121,7 @@
   border: 2px solid rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   background-color: #f8f8f8;
+  transition: all 0.3s ease-in-out;
 }
 .reply__colum:last-child > i,
 .reply__colum:last-child button {
@@ -143,4 +145,25 @@
 }
 .reply__colum:first-child > i {
   opacity: 0.5;
+}
+
+.reply:focus-within .reply__colum:first-child,
+.reply:focus-within .fa-face-smile,
+.reply:focus-within button {
+  opacity: 0;
+}
+.reply .reply__colum:first-child,
+.reply .fa-face-smile,
+.reply button {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within input {
+  width: 95vw;
+  transform: translateX(-10%) translateY(-80px);
+  box-sizing: border-box;
+}
+
+.reply:focus-within {
+  transform: translateY(80px);
 }
